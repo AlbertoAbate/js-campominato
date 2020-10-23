@@ -18,7 +18,7 @@ console.log(numberList);
 
 // In seguito deve chiedere all'utente (100 - 16) volte di inserire un numero alla volta, sempre compreso tra 1 e 100.
 // L'utente non può inserire più volte lo stesso numero.
-for (var i = 0; userList.length < 5; i++) {
+for (var i = 0; userList.length < 84; i++) {
   var numUser = parseInt (prompt("inserisci un numero"));
   while (userList.includes(numUser) || ( numUser < nMin) || (numUser > nMax)) {
     alert("attenzione! numero errato, scrivi un nuovo numero");
